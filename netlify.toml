@@ -1,0 +1,18 @@
+[build]
+  command = "npm run db:migrate:security && npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_USE_NETLIFY_EDGE = "true"
+  NETLIFY_SITE_ID = "80b70426-7c15-4f01-8635-ad1980eb9505"
+
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Ensure static assets are served with correct headers
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

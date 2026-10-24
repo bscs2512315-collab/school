@@ -1,0 +1,1358 @@
+@import "tailwindcss";
+
+/* @plugin "tailwindcss-animate"; */
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  --font-handwriting: var(--font-kalam), 'Kalam', 'Segoe Print', cursive;
+  --font-urdu: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  --font-arabic: 'Amiri Quran', 'Scheherazade New', 'Lateef', 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+  --font-quran: 'Amiri Quran', 'Scheherazade New', 'Lateef', 'Amiri', 'Noto Naskh Arabic', serif;
+
+  /* Primary ExBoard AI Green #005F02 */
+  --color-primary: #005f02;
+  --color-primary-light: #008503;
+  --color-primary-dark: #004a02;
+  --color-logo-green: #009e05;
+
+  /* Primary — Edu-Center inspired purple (previous) */
+  /* --color-primary: #7c3aed; */
+  /* --color-primary-light: #a78bfa; */
+  /* --color-primary-dark: #5b21b6; */
+
+  --color-primary-foreground: #ffffff;
+
+  --color-background: #ffffff;
+  --color-foreground: #020617;
+
+  --color-card: #ffffff;
+  --color-card-foreground: #020617;
+
+  --color-popover: #ffffff;
+  --color-popover-foreground: #020617;
+
+  --color-secondary: #f1f5f9;
+  --color-secondary-foreground: #0f172a;
+
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+
+  --color-accent: #f1f5f9;
+  --color-accent-foreground: #0f172a;
+
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #ffffff;
+
+  --color-error: #dc2626;
+  --color-error-foreground: #ffffff;
+  --color-error-dark: #991b1b;
+
+  --color-border: #d1d5db;
+  --color-input: #e5e7eb;
+  --color-ring: #005f02;
+  /* --color-ring: #7c3aed; */
+  --color-auth-input-bg: rgba(0, 95, 2, 0.03);
+  /* --color-auth-input-bg: rgba(124, 58, 237, 0.03); */
+  --color-sidebar-bg: #ffffff;
+  --color-dashboard-bg: #ffffff;
+  --color-sidebar-from: #006b04;
+  --color-sidebar-to: #003d01;
+  /* --color-sidebar-from: #8b5cf6; */
+  /* --color-sidebar-to: #5b21b6; */
+
+  --color-page-watermark: color-mix(in srgb, var(--color-primary) 16%, transparent);
+
+  /* Leaderboard Rank Colors */
+  --color-rank-1: #e6a800;
+  --color-rank-1-dark: #a87800;
+  --color-rank-2: #193de0;
+  --color-rank-2-dark: #0f2888;
+  --color-rank-3: #b719e0;
+  --color-rank-3-dark: #7a1096;
+  --color-rank-4: #059669;
+  --color-rank-4-dark: #047857;
+  --color-rank-5: #e11d48;
+  --color-rank-5-dark: #9f1239;
+
+  /* Performance Trend Colors */
+  --color-trend-up: #10b981;
+  --color-trend-down: #ef4444;
+
+  /* MacroPulse partner badge */
+  --color-macropulse: #4db6ac;
+
+  --radius: 0.75rem;
+}
+
+.dark {
+  --color-background: #030704;
+  --color-foreground: #f8fafc;
+  --color-card: #08120a;
+  --color-card-foreground: #f8fafc;
+  --color-popover: #0c1810;
+  --color-popover-foreground: #f8fafc;
+
+  --color-sidebar-bg: #030704;
+  --color-dashboard-bg: #030704;
+
+  /* Rich brand forest emerald for dark mode (non-blinding, deep gradient) */
+  --color-primary: #006b03;
+  --color-primary-light: #00b804;
+  --color-primary-dark: #003d01;
+  --color-logo-green: #00c406;
+
+  --color-rank-1: #ff8f00;
+  --color-rank-1-dark: #cc7000;
+  --color-rank-2-dark: #0a1f6e;
+  --color-rank-3-dark: #9018b0;
+  --color-rank-4: #10b981;
+  --color-rank-4-dark: #059669;
+  --color-rank-5: #f43f5e;
+  --color-rank-5-dark: #be123c;
+
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #102014;
+  --color-secondary-foreground: #f8fafc;
+  --color-muted: #102014;
+  --color-muted-foreground: #94a3b8;
+  --color-accent: #102014;
+  --color-accent-foreground: #f8fafc;
+
+  --color-destructive: #7f1d1d;
+  --color-destructive-foreground: #f8fafc;
+
+  --color-error: #b91c1c;
+  --color-error-foreground: #fef2f2;
+  --color-error-dark: #7f1d1d;
+
+  --color-border: #1b3320;
+  --color-input: #102014;
+  --color-ring: #007a03;
+  --color-auth-input-bg: rgba(0, 107, 3, 0.08);
+  --color-page-watermark: color-mix(in srgb, var(--color-primary) 20%, transparent);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-card);
+    color: var(--color-foreground);
+    font-family: var(--font-poppins), sans-serif;
+    @apply antialiased;
+  }
+
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  option {
+    background-color: var(--color-popover);
+    color: var(--color-foreground);
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  * {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  @keyframes nova-message-enter {
+    from {
+      opacity: 0;
+      transform: translateY(8px) scale(0.985);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .nova-message-enter {
+    animation: nova-message-enter 220ms ease-out both;
+  }
+
+  @keyframes nova-thinking-pulse {
+
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.5;
+    }
+  }
+
+  .nova-thinking-pulse {
+    animation: nova-thinking-pulse 1.6s ease-in-out infinite;
+  }
+
+  @keyframes nova-thinking-shimmer {
+    0% {
+      background-position: 100% 0;
+    }
+
+    100% {
+      background-position: -100% 0;
+    }
+  }
+
+  .nova-thinking-shimmer {
+    display: inline-block;
+    background: linear-gradient(
+      110deg,
+      var(--color-primary) 15%,
+      #16a34a 35%,
+      #4ade80 50%,
+      #16a34a 65%,
+      var(--color-primary) 85%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: nova-thinking-shimmer 2.2s linear infinite;
+  }
+
+  :is(.dark *) .nova-thinking-shimmer {
+    background: linear-gradient(
+      110deg,
+      #4ade80 15%,
+      #86efac 35%,
+      #ffffff 50%,
+      #86efac 65%,
+      #4ade80 85%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+
+    .nova-message-enter,
+    .nova-thinking-pulse,
+    .nova-thinking-shimmer {
+      animation: none;
+    }
+
+    .nova-thinking-shimmer {
+      background: none;
+      -webkit-text-fill-color: currentColor;
+    }
+  }
+}
+
+/* Hide default calendar icon for date inputs - outside layer for higher specificity */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none !important;
+  -webkit-appearance: none !important;
+  opacity: 0 !important;
+  position: absolute !important;
+  right: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  pointer-events: none !important;
+}
+
+input[type="date"] {
+  -moz-appearance: textfield !important;
+  appearance: none !important;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+  display: none !important;
+}
+
+@layer utilities {
+
+  /* Urdu & Arabic Typography & RTL Layouts */
+  .font-urdu,
+  [dir="rtl"].font-urdu,
+  [dir="rtl"] .font-urdu {
+    font-family: var(--font-urdu), 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+    line-height: 2.2;
+  }
+
+  .font-arabic,
+  .font-quran,
+  [dir="rtl"].font-arabic,
+  [dir="rtl"] .font-arabic,
+  [dir="rtl"].font-quran,
+  [dir="rtl"] .font-quran {
+    font-family: var(--font-quran), 'Amiri Quran', 'Scheherazade New', 'Lateef', 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+    line-height: 2.1;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "cv01" on, "cv02" on, "calt" 1, "liga" 1, "kern" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  [dir="rtl"] {
+    text-align: right;
+    direction: rtl;
+  }
+
+  /* Prevent iOS Safari auto-zoom when tapping inputs and textareas */
+  @media screen and (max-width: 768px) {
+    input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]),
+    textarea,
+    select {
+      font-size: 16px !important;
+    }
+  }
+
+  /* Scoped to attempt UI only — never apply on document.body */
+  .exam-secure {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+  }
+
+  .exam-question-scroll {
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y pinch-zoom;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.05),
+      0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      inset 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+
+  .prof-mesh-gradient {
+    @apply bg-card;
+    background: linear-gradient(135deg,
+        var(--color-background) 0%,
+        color-mix(in srgb, var(--color-primary) 3%, transparent) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .prof-ripple-container {
+    position: absolute;
+    top: -10%;
+    right: -5%;
+    width: 120%;
+    height: 120%;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.3;
+  }
+
+  .prof-ripple {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    background: radial-gradient(circle,
+        var(--color-primary) 0%,
+        transparent 70%);
+    filter: blur(60px);
+  }
+
+  .prof-ripple-1 {
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    transform: translate(20%, -20%);
+  }
+
+  .prof-ripple-2 {
+    width: 70%;
+    height: 70%;
+    opacity: 0.08;
+    transform: translate(30%, -30%);
+  }
+
+  .prof-ripple-3 {
+    width: 40%;
+    height: 40%;
+    opacity: 0.12;
+    transform: translate(40%, -40%);
+  }
+
+  .text-brand-dark {
+    color: var(--color-primary);
+  }
+
+  .bg-glass-primary {
+    background: color-mix(in srgb, var(--color-primary) 5%, transparent);
+    backdrop-filter: blur(4px);
+  }
+
+  .auth-brand-gradient {
+    background: linear-gradient(155deg,
+        color-mix(in srgb, var(--color-primary) 35%, black) 0%,
+        var(--color-primary) 42%,
+        color-mix(in srgb, var(--color-primary) 75%, white) 100%);
+  }
+
+  .auth-headline {
+    animation: authSlideUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .auth-brand-float {
+    animation: authBrandFloat linear infinite;
+  }
+
+  .auth-form-float {
+    animation: authFormFloat 8s ease-in-out infinite;
+  }
+
+  .dashboard-sidebar-gradient {
+    background: linear-gradient(180deg, #002801 0%, #004502 22%, #005f02 55%, #003801 100%);
+  }
+
+  .dashboard-shell-bg {
+    background-color: var(--color-card);
+  }
+
+  .page-header-watermark {
+    color: var(--color-page-watermark);
+    z-index: 0;
+  }
+
+  .dashboard-card {
+    background-color: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow:
+      0 1px 3px color-mix(in srgb, var(--color-foreground) 4%, transparent),
+      0 4px 16px color-mix(in srgb, var(--color-foreground) 3%, transparent);
+  }
+
+  @media (max-width: 767px) {
+    .dark .nova-mobile-primary-surface {
+      background-color: color-mix(in srgb, #005f02 10%, transparent);
+    }
+
+    .dark .nova-mobile-primary-surface-hover:hover {
+      background-color: color-mix(in srgb, #005f02 15%, transparent);
+    }
+
+    .dark .nova-mobile-primary-text {
+      color: white;
+    }
+  }
+
+}
+
+/* Auth pages — scoped fonts (matches TestHub) */
+.auth-container {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.auth-container input,
+.auth-container select,
+.auth-container button,
+.auth-container textarea,
+.auth-container label,
+.auth-container span,
+.auth-container p,
+.auth-container a,
+.auth-container div {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.auth-container h1,
+.auth-container h2,
+.auth-container h3,
+.auth-container .auth-heading {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+@keyframes authSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes authBrandFloat {
+
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+    opacity: 0.1;
+  }
+
+  33% {
+    transform: translate(15px, -25px) rotate(10deg) scale(1.1);
+    opacity: 0.15;
+  }
+
+  66% {
+    transform: translate(-20px, -45px) rotate(-8deg) scale(0.95);
+    opacity: 0.12;
+  }
+}
+
+@keyframes authFormFloat {
+
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.04;
+  }
+
+  50% {
+    transform: translateY(-8px);
+    opacity: 0.08;
+  }
+}
+
+@keyframes landingFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes landingFloat {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.landing-fade-up {
+  animation: landingFadeUp 0.7s ease-out both;
+}
+
+.landing-delay-1 {
+  animation-delay: 0.08s;
+}
+
+.landing-delay-2 {
+  animation-delay: 0.16s;
+}
+
+.landing-delay-3 {
+  animation-delay: 0.24s;
+}
+
+.landing-delay-4 {
+  animation-delay: 0.32s;
+}
+
+.landing-float {
+  animation: landingFloat 6s ease-in-out infinite;
+}
+
+@keyframes landingFloatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(1deg);
+  }
+}
+
+@keyframes landingFloatReverse {
+  0%, 100% {
+    transform: translateY(-8px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(4px) rotate(-1deg);
+  }
+}
+
+@keyframes landingPulseGlow {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes landingDriftSlow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes landingDriftSlowReverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes landingShimmerSweep {
+  0% {
+    transform: translateX(-100%) skewX(-15deg);
+  }
+  30%, 100% {
+    transform: translateX(250%) skewX(-15deg);
+  }
+}
+
+.landing-float-slow {
+  animation: landingFloatSlow 8s ease-in-out infinite;
+}
+
+.landing-float-reverse {
+  animation: landingFloatReverse 6s ease-in-out infinite;
+}
+
+.landing-pulse-glow {
+  animation: landingPulseGlow 4s ease-in-out infinite;
+}
+
+.landing-drift-left {
+  animation: landingDriftSlow 40s linear infinite;
+  will-change: transform;
+}
+
+.landing-drift-right {
+  animation: landingDriftSlowReverse 40s linear infinite;
+  will-change: transform;
+}
+
+.landing-drift-left:hover,
+.landing-drift-right:hover {
+  animation-play-state: paused;
+}
+
+.landing-shimmer-sweep {
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-shimmer-sweep::after {
+  content: "";
+  position: absolute;
+  inset: -50% -100%;
+  width: 60%;
+  height: 200%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.28) 50%,
+    transparent 100%
+  );
+  animation: landingShimmerSweep 4.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.landing-laptop-scene {
+  perspective: 1600px;
+}
+
+.landing-laptop {
+  transform: rotateX(12deg);
+  transform-origin: center bottom;
+}
+
+.landing-laptop-float {
+  animation: landingLaptopFloat 7s ease-in-out infinite;
+}
+
+@keyframes landingLaptopFloat {
+
+  0%,
+  100% {
+    transform: rotateX(12deg) translateY(0);
+  }
+
+  50% {
+    transform: rotateX(12deg) translateY(-10px);
+  }
+}
+
+@keyframes landingLaptopFloatMobile {
+
+  0%,
+  100% {
+    transform: rotateX(6deg) translateY(0);
+  }
+
+  50% {
+    transform: rotateX(6deg) translateY(-6px);
+  }
+}
+
+.landing-laptop-lid {
+  box-shadow:
+    0 25px 50px -12px color-mix(in srgb, var(--color-primary) 22%, transparent),
+    inset 0 1px 0 color-mix(in srgb, white 16%, transparent);
+}
+
+.landing-laptop-hinge {
+  height: 6px;
+  margin-inline: 1.25rem;
+  background: color-mix(in srgb, var(--color-foreground) 92%, white);
+}
+
+.landing-laptop-base {
+  height: 16px;
+  clip-path: polygon(1.8% 0, 98.2% 0, 100% 100%, 0 100%);
+  border-radius: 0 0 10px 10px;
+  background: linear-gradient(to bottom,
+      var(--color-foreground) 0%,
+      color-mix(in srgb, var(--color-foreground) 78%, white) 100%);
+}
+
+@media (min-width: 640px) {
+  .landing-laptop-hinge {
+    height: 8px;
+    margin-inline: 2rem;
+  }
+
+  .landing-laptop-base {
+    height: 22px;
+    border-radius: 0 0 14px 14px;
+  }
+}
+
+@media (max-width: 639px) {
+  .landing-laptop {
+    transform: rotateX(6deg);
+  }
+
+  .landing-laptop-float {
+    animation-name: landingLaptopFloatMobile;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .landing-fade-up,
+  .landing-float,
+  .landing-float-slow,
+  .landing-float-reverse,
+  .landing-pulse-glow,
+  .landing-drift-left,
+  .landing-drift-right,
+  .landing-shimmer-sweep::after,
+  .landing-laptop-float,
+  .landing-marquee,
+  .landing-news-ticker,
+  .landing-audience,
+  .landing-text-gradient {
+    animation: none !important;
+  }
+
+  .landing-laptop {
+    transform: none;
+  }
+}
+
+.landing-display {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+}
+
+.landing-text-gradient {
+  background: linear-gradient(120deg,
+      var(--color-primary),
+      var(--color-primary-light),
+      var(--color-primary),
+      var(--color-primary-dark));
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-shift 8s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.landing-grid-fade {
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--color-primary) 12%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--color-primary) 12%, transparent) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 40%, transparent 100%);
+}
+
+.sticker-card {
+  border: 2px solid #020617;
+  box-shadow: 5px 6px 0 #020617;
+}
+
+.landing-audience {
+  display: inline-block;
+  animation: landingFadeUp 0.45s ease both;
+}
+
+@keyframes landingMarquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.landing-marquee {
+  animation: landingMarquee 32s linear infinite;
+}
+
+.landing-news-ticker {
+  animation: landingMarquee 55s linear infinite;
+}
+
+.landing-news-ticker:hover {
+  animation-play-state: paused;
+}
+
+.sticker-btn {
+  border: 2px solid #020617 !important;
+  box-shadow: 4px 5px 0 #020617 !important;
+  transition:
+    transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.sticker-btn:hover {
+  transform: translate(2px, 3px);
+  box-shadow: 1px 2px 0 #020617 !important;
+}
+
+.sticker-surface {
+  border: 2px solid #020617;
+  box-shadow: 6px 7px 0 #020617;
+  transition:
+    transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.sticker-surface:hover {
+  transform: translate(3px, 4px);
+  box-shadow: 2px 3px 0 #020617;
+}
+
+.landing-cursor-layer {
+  z-index: 100;
+}
+
+@media (pointer: fine) {
+  html.landing-cursor-active,
+  html.landing-cursor-active *,
+  .landing-cursor-area.landing-cursor-active,
+  .landing-cursor-area.landing-cursor-active * {
+    cursor: none !important;
+  }
+}
+
+/* Global app loader — dual-orbit spinner */
+.app-loader {
+  --loader-color-1: var(--color-primary);
+  --loader-color-2: var(--color-primary-light);
+  --loader-unit: 1px;
+  --loader-scale: 1;
+
+  position: relative;
+  display: inline-block;
+  font-size: calc(48 * var(--loader-unit) * var(--loader-scale));
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  color: var(--loader-color-1);
+  transform: rotateZ(45deg);
+  perspective: 1000px;
+}
+
+.app-loader::before,
+.app-loader::after {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  transform: rotateX(70deg);
+  animation: app-loader-spin 1s linear infinite;
+}
+
+.app-loader::after {
+  color: var(--loader-color-2);
+  transform: rotateY(70deg);
+  animation-delay: 0.4s;
+}
+
+@keyframes app-loader-spin {
+
+  0%,
+  100% {
+    box-shadow: 0.2em 0 0 0 currentcolor;
+  }
+
+  12% {
+    box-shadow: 0.2em 0.2em 0 0 currentcolor;
+  }
+
+  25% {
+    box-shadow: 0 0.2em 0 0 currentcolor;
+  }
+
+  37% {
+    box-shadow: -0.2em 0.2em 0 0 currentcolor;
+  }
+
+  50% {
+    box-shadow: -0.2em 0 0 0 currentcolor;
+  }
+
+  62% {
+    box-shadow: -0.2em -0.2em 0 0 currentcolor;
+  }
+
+  75% {
+    box-shadow: 0 -0.2em 0 0 currentcolor;
+  }
+
+  87% {
+    box-shadow: 0.2em -0.2em 0 0 currentcolor;
+  }
+}
+
+/* Mathematical Fraction Typography (Vertical Fractions) */
+.inline-fraction {
+  display: inline-flex !important;
+  flex-direction: column !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  padding: 0 2px;
+  line-height: 1.15 !important;
+  font-size: 0.92em;
+  margin: 0 1.5px;
+}
+
+.inline-fraction .numerator {
+  border-bottom: 1.5px solid currentColor !important;
+  padding: 0 3px 1px 3px !important;
+  display: inline-block !important;
+  white-space: nowrap !important;
+}
+
+.inline-fraction .denominator {
+  padding: 1px 3px 0 3px !important;
+  display: inline-block !important;
+  white-space: nowrap !important;
+}
+
+/* Mathematical Conjugate / Overline Bar Typography */
+.math-conjugate,
+.math-overline {
+  display: inline-block !important;
+  border-top: 1.5px solid currentColor !important;
+  padding-top: 1.5px !important;
+  line-height: 1 !important;
+  vertical-align: baseline !important;
+  margin: 0 0.04em !important;
+  text-decoration: none !important;
+}
+
+/* Mathematical Angle Symbol Typography */
+.math-angle {
+  display: inline-block !important;
+  font-size: 1.25em !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  vertical-align: -0.05em !important;
+  margin-right: 0.06em !important;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+/* Mathematical Blackboard Bold Sets (W, Z, N, R, Q, etc.) */
+.math-bb {
+  display: inline-block !important;
+  font-weight: 800 !important;
+  -webkit-text-stroke: 0.5px currentColor !important;
+  line-height: 1 !important;
+  margin: 0 0.04em !important;
+  font-family: 'KaTeX_AMS', 'Cambria Math', 'STIXGeneral', serif, sans-serif !important;
+}
+
+/* Mathematical List Bullet Dots */
+.math-bullet {
+  font-weight: 700 !important;
+}
+
+.dark .math-bullet,
+[data-theme="dark"] .math-bullet {
+  color: #a1a1aa !important;
+  /* neutral zinc-400 gray in dark mode */
+}
+
+/* Chemical Nuclide & Isotope Notation Stack */
+.math-nuclide {
+  display: inline-flex !important;
+  align-items: center !important;
+  vertical-align: baseline !important;
+  line-height: 1 !important;
+  margin: 0 0.12em !important;
+  font-style: normal !important;
+}
+
+.math-nuclide .isotope-stack {
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  font-size: 0.6em !important;
+  line-height: 1 !important;
+  margin-right: 1.5px !important;
+  vertical-align: baseline !important;
+}
+
+.math-nuclide .isotope-mass {
+  line-height: 1 !important;
+  margin-bottom: 0.18em !important;
+  text-align: right !important;
+}
+
+.math-nuclide .isotope-atomic {
+  line-height: 1 !important;
+  text-align: right !important;
+}
+
+.math-nuclide .isotope-elem {
+  font-size: 1em !important;
+  line-height: 1 !important;
+}
+
+/* ==========================================================================
+   Handwritten Notebook Experience Styling
+   ========================================================================== */
+.font-handwriting {
+  font-family: var(--font-kalam), 'Kalam', 'Segoe Print', 'Caveat', cursive, sans-serif !important;
+  line-height: 36px !important;
+}
+
+.font-handwriting p,
+.font-handwriting li,
+.font-handwriting h1,
+.font-handwriting h2,
+.font-handwriting h3,
+.font-handwriting h4 {
+  line-height: 36px !important;
+}
+
+/* Notebook Ink Overrides for RTL & Urdu / Arabic Content */
+.font-handwriting .font-urdu,
+.font-handwriting [dir="rtl"].font-urdu,
+.font-handwriting [dir="rtl"] .font-urdu,
+.font-handwriting [dir="rtl"],
+.font-handwriting [dir="rtl"] p,
+.font-handwriting [dir="rtl"] div,
+.font-handwriting [dir="rtl"] span,
+.font-handwriting [dir="rtl"] li,
+.font-handwriting [dir="rtl"] h1,
+.font-handwriting [dir="rtl"] h2,
+.font-handwriting [dir="rtl"] h3,
+.font-handwriting [dir="rtl"] h4 {
+  font-family: var(--font-urdu), 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Amiri', serif !important;
+  line-height: 2.3 !important;
+}
+
+.font-handwriting .font-arabic,
+.font-handwriting [dir="rtl"].font-arabic,
+.font-handwriting [dir="rtl"] .font-arabic {
+  font-family: var(--font-arabic), 'Amiri', 'Noto Naskh Arabic', serif !important;
+  line-height: 2.0 !important;
+}
+
+.font-handwriting table,
+.font-handwriting td,
+.font-handwriting th,
+.font-handwriting tr {
+  line-height: 1.3 !important;
+}
+
+.notebook-paper-bg {
+  background-color: #fbf9f4;
+  color: #1e293b;
+}
+
+.dark .notebook-paper-bg {
+  background-color: #0f141d;
+  color: #f1f5f9;
+}
+
+/* Ruled horizontal lines with 36px vertical baseline rhythm */
+.notebook-ruled-grid {
+  background-image: repeating-linear-gradient(transparent,
+      transparent 35px,
+      rgba(59, 130, 246, 0.12) 35px,
+      rgba(59, 130, 246, 0.12) 36px);
+  background-size: 100% 36px;
+  background-position: 0 28px;
+}
+
+.dark .notebook-ruled-grid {
+  background-image: repeating-linear-gradient(transparent,
+      transparent 35px,
+      rgba(148, 163, 184, 0.12) 35px,
+      rgba(148, 163, 184, 0.12) 36px);
+  background-size: 100% 36px;
+  background-position: 0 28px;
+}
+
+/* Authentic Highlighter tape effects */
+.notebook-highlighter-yellow {
+  background: linear-gradient(104deg, rgba(254, 240, 138, 0.75) 0%, rgba(253, 224, 71, 0.6) 100%);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.dark .notebook-highlighter-yellow {
+  background: linear-gradient(104deg, rgba(161, 98, 7, 0.4) 0%, rgba(133, 77, 14, 0.45) 100%);
+  color: #fef08a;
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Handwritten Ink Colors */
+.ink-question-black {
+  color: #090d16 !important;
+}
+
+.dark .ink-question-black {
+  color: #f8fafc !important;
+}
+
+.ink-answer-blue {
+  color: #1d4ed8 !important;
+}
+
+.dark .ink-answer-blue {
+  color: #60a5fa !important;
+}
+
+/* Print styling for Practical Journals & Reports */
+@media print {
+
+  aside,
+  nav,
+  .print-hidden,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  body,
+  main {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+/* Gaming UI Animations */
+@keyframes gameShake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-8px) rotate(-1.5deg);
+  }
+
+  40% {
+    transform: translateX(8px) rotate(1.5deg);
+  }
+
+  60% {
+    transform: translateX(-5px) rotate(-0.8deg);
+  }
+
+  80% {
+    transform: translateX(5px) rotate(0.8deg);
+  }
+}
+
+.animate-game-shake {
+  animation: gameShake 0.45s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes pulseGlow {
+
+  0%,
+  100% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 1.4s ease-in-out infinite;
+}
+
+/* Bottom padding to ensure content is fully visible above floating mobile bottom nav */
+.pb-mobile-nav {
+  padding-bottom: calc(8.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+@media (min-width: 1024px) {
+  .pb-mobile-nav {
+    padding-bottom: 0;
+  }
+}
+
+/* ========================================================================= */
+/* Nova AI IDE Code Block Syntax Highlighting (VS Code / GitHub Dark Theme)  */
+/* ========================================================================= */
+.nova-code-block .token.comment,
+.nova-code-block .token.prolog,
+.nova-code-block .token.doctype,
+.nova-code-block .token.cdata {
+  color: #768390 !important;
+  font-style: italic !important;
+}
+
+.nova-code-block .token.punctuation {
+  color: #cdd9e5 !important;
+}
+
+.nova-code-block .token.property,
+.nova-code-block .token.tag,
+.nova-code-block .token.boolean,
+.nova-code-block .token.number,
+.nova-code-block .token.constant,
+.nova-code-block .token.symbol,
+.nova-code-block .token.deleted {
+  color: #f69d50 !important;
+}
+
+.nova-code-block .token.selector,
+.nova-code-block .token.attr-name,
+.nova-code-block .token.string,
+.nova-code-block .token.char,
+.nova-code-block .token.builtin,
+.nova-code-block .token.inserted,
+.nova-code-block .token.string-interpolation {
+  color: #7ee787 !important;
+}
+
+.nova-code-block .token.operator,
+.nova-code-block .token.entity,
+.nova-code-block .token.url {
+  color: #79c0ff !important;
+}
+
+.nova-code-block .token.atrule,
+.nova-code-block .token.attr-value,
+.nova-code-block .token.keyword {
+  color: #d2a8ff !important;
+  font-weight: 600 !important;
+}
+
+.nova-code-block .token.function,
+.nova-code-block .token.class-name {
+  color: #79c0ff !important;
+  font-weight: 500 !important;
+}
+
+.nova-code-block .token.regex,
+.nova-code-block .token.important,
+.nova-code-block .token.variable {
+  color: #e3b341 !important;
+}
+
+.nova-code-block .token.macro,
+.nova-code-block .token.directive,
+.nova-code-block .token.directive-hash {
+  color: #ff7b72 !important;
+  font-weight: 600 !important;
+}
+
+/* Question Paper SVG Diagrams */
+svg text {
+  font-family: inherit;
+}

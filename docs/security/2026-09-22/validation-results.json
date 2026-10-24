@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-09-22T08:01:28.164Z",
+  "isolation": "Mock DB/AI/auth; browser requests blocked; loopback-only HTTP",
+  "results": [
+    {
+      "name": "Stored XSS rendering primitive",
+      "status": "REPRODUCED",
+      "detail": {
+        "input": "<img/src=\"x\"/onerror=\"window.auditMarker=1\">",
+        "output": "<img/src=\"x\"/onerror=\"window.auditMarker=1\">",
+        "marker": 1
+      }
+    },
+    {
+      "name": "Admin syllabus shell command substitution",
+      "status": "REPRODUCED",
+      "detail": {
+        "encoded": "https://example.invalid/$(auditmarker).pdf",
+        "expanded": "https://example.invalid/AUDIT.pdf"
+      }
+    },
+    {
+      "name": "SSRF and MIME fallback",
+      "status": "REPRODUCED",
+      "detail": {
+        "loopbackRequests": 1,
+        "acceptedAs": "image/jpeg"
+      }
+    },
+    {
+      "name": "Chat cross-owner write",
+      "status": "REPRODUCED",
+      "detail": {
+        "victimWrites": 2,
+        "ownershipQueries": 0
+      }
+    },
+    {
+      "name": "Null-school grading and replay rewards",
+      "status": "REPRODUCED",
+      "detail": {
+        "acceptedUnrelatedAttempt": true,
+        "updates": 2,
+        "rewardCalls": 2
+      }
+    },
+    {
+      "name": "Generated-paper cross-owner answer disclosure",
+      "status": "REPRODUCED",
+      "detail": {
+        "status": 200,
+        "disclosedAnswer": "A"
+      }
+    },
+    {
+      "name": "Unauthenticated lab AI invocation",
+      "status": "REPRODUCED",
+      "detail": {
+        "aiCalls": 1,
+        "authorizationHeader": false
+      }
+    },
+    {
+      "name": "Independent-worker rate-limit reset",
+      "status": "REPRODUCED",
+      "detail": {
+        "firstWorkerDenied": true,
+        "secondWorkerAllowed": true
+      }
+    }
+  ]
+}

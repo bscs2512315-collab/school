@@ -1,0 +1,142 @@
+{
+  "startedAt": "2026-10-02T07:35:53.136Z",
+  "baseUrl": "https://www.exboardai.tech",
+  "modules": {
+    "auth": {
+      "steps": [
+        {
+          "step": "Password Policy Real-Time Validation",
+          "status": "PASS",
+          "enforced": true
+        },
+        {
+          "step": "Forgot Password OTP Request",
+          "status": "PASS"
+        },
+        {
+          "step": "Student B Login",
+          "status": "PASS",
+          "url": "https://www.exboardai.tech/student/dashboard"
+        }
+      ]
+    },
+    "pastPapers": {
+      "steps": [
+        {
+          "type": "Paper 1 Index",
+          "status": "PASS",
+          "url": "https://www.exboardai.tech/student/past-papers-1"
+        },
+        {
+          "type": "Paper 2 Index",
+          "status": "PASS",
+          "url": "https://www.exboardai.tech/student/past-papers-2"
+        }
+      ]
+    },
+    "generator": {
+      "steps": [
+        {
+          "mode": "Solo Practice",
+          "hasDifficultyControls": false,
+          "status": "PASS"
+        },
+        {
+          "mode": "Challenge Hub & Multi-User Invitations",
+          "studentA_Status": "HEALTHY",
+          "studentB_Status": "HEALTHY",
+          "status": "PASS"
+        }
+      ]
+    },
+    "akuebGrades": {
+      "IX": {
+        "board": "AKUEB",
+        "class": "IX",
+        "dashLatencyMs": 1887,
+        "papersLoaded": false,
+        "curriculumLoaded": true,
+        "generatorReady": true,
+        "status": "PASS"
+      },
+      "X": {
+        "board": "AKUEB",
+        "class": "X",
+        "dashLatencyMs": 1357,
+        "papersLoaded": false,
+        "curriculumLoaded": true,
+        "generatorReady": true,
+        "status": "PASS"
+      },
+      "XI": {
+        "board": "AKUEB",
+        "class": "XI",
+        "dashLatencyMs": 2086,
+        "papersLoaded": false,
+        "curriculumLoaded": true,
+        "generatorReady": true,
+        "status": "PASS"
+      },
+      "XII": {
+        "board": "AKUEB",
+        "class": "XII",
+        "dashLatencyMs": 1332,
+        "papersLoaded": false,
+        "curriculumLoaded": true,
+        "generatorReady": false,
+        "status": "PASS"
+      }
+    },
+    "sindhBoard": {
+      "classes": {
+        "IX": {
+          "status": "PASS",
+          "papersLoaded": false
+        },
+        "X": {
+          "status": "PASS",
+          "papersLoaded": false
+        },
+        "XI": {
+          "status": "PASS",
+          "papersLoaded": false
+        },
+        "XII": {
+          "status": "PASS",
+          "papersLoaded": false
+        }
+      },
+      "solvedNotes": []
+    },
+    "nova": [
+      {
+        "subject": "Mathematics",
+        "durationMs": 2466,
+        "length": 102,
+        "accuracyPass": true,
+        "status": "PASS"
+      },
+      {
+        "subject": "Chemistry",
+        "durationMs": 7651,
+        "length": 121,
+        "accuracyPass": false,
+        "status": "PASS"
+      },
+      {
+        "subject": "Islamiat",
+        "durationMs": 4596,
+        "length": 128,
+        "accuracyPass": true,
+        "status": "PASS"
+      }
+    ]
+  },
+  "summary": {
+    "passed": 18,
+    "failed": 0,
+    "warnings": 0
+  },
+  "errors": [],
+  "finishedAt": "2026-10-02T07:37:33.206Z"
+}

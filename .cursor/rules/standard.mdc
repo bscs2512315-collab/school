@@ -1,0 +1,123 @@
+---
+description: Core React/TypeScript coding standards for ExBoardAI
+alwaysApply: true
+---
+
+# Coding Standards
+
+## Conditional classes — use `cn` with object syntax
+
+Never use ternary or `&&` inside `cn()`. Use object keys for conditional classes.
+
+```tsx
+// ❌ BAD
+cn("base", isActive && "text-primary", isRTL ? "left-8" : "right-8")
+
+// ✅ GOOD
+cn("base", { "text-primary": isActive, "left-8": isRTL, "right-8": !isRTL })
+```
+
+## Conditional rendering — use ternary, not `&&`
+
+Use `? :` for JSX conditionals. Avoid nested ternaries.
+
+```tsx
+// ❌ BAD
+{footer && <Footer />}
+{icon && <Icon />}
+
+// ✅ GOOD
+{footer ? <Footer /> : null}
+{icon ? <Icon /> : null}
+```
+
+## ENUMs over hardcoded strings
+
+```ts
+export enum USER_ROLE {
+  ADMIN = "ADMIN",
+  USER = "USER",
+}
+```
+
+## Colors — theme tokens only
+
+Never use hardcoded colors (`bg-[#898989]`, `bg-gray-500`, `bg-slate-900`). Use defined CSS tokens (`bg-primary`, `bg-background`, `text-muted-foreground`).
+
+## Sizing — prefer `size-*`
+
+Use `size-5` instead of `h-5 w-5`.
+
+## Routes — use route enums/constants
+
+Never hardcode route strings. Use route objects/enums from `constants/endpoints.ts`:
+
+```tsx
+router.push(FRONTEND_ROUTES.STUDENT_CURRICULUMS)
+```
+
+## shadcn/ui — wrap, don't modify
+
+Do not edit `components/ui/*` shadcn primitives. Create App wrappers (e.g. `AppInput`, `AppButton`) and customize there.
+
+## Spacing & CSS hygiene
+
+- No negative margin or padding (`-m-*`, `-p-*`)
+- No `!` important overrides (`text-sm!`)
+- No arbitrary values (`p-[30px]`) — use Tailwind scale tokens
+
+## i18n
+
+Keep user-facing text in locale files (e.g. `en.json`). No hardcoded UI copy in components when adding new features.
+
+## Components
+
+Prefer reusable, focused components. Keep pages thin; extract shared UI (headers, footers, links, buttons).
+
+- Use `AppState` / `AppQueryState` for loading, empty, and error UI
+- Use `AppSkeleton` for list placeholders
+- Use `DashboardShell` for student/admin layouts — do not duplicate sidebar/header logic
+- Use `ConfirmationModal` with `variant="danger"` instead of bespoke delete modals
+
+## Imports — no unused barrel files
+
+Do not add feature-level `index.ts` re-export barrels unless something actually imports from that path.
+
+```ts
+// ❌ BAD — unused index.ts that re-exports everything
+export * from "./hooks";
+
+// ✅ GOOD — import from the concrete module
+import { useStudentCurriculums } from "@/hooks/student/useStudentCurriculums";
+```
+
+## API layer — React Query required for client data fetching
+
+- **Never** call `apiInstance` directly inside page `useEffect` for new features
+- Use typed helpers from `lib/api/api-client.ts`
+- Use endpoint constants from `constants/endpoints.ts` — never hardcode API paths
+- Define query keys in `lib/api/query-keys.ts`
+- Put domain hooks in `hooks/<domain>/` (e.g. `hooks/student/useStudentCurriculums.ts`)
+
+```ts
+// ✅ GOOD
+export function useStudentCurriculums() {
+  return useApiQuery({
+    queryKey: queryKeys.student.curriculums(),
+    queryFn: () => apiGet<Curriculum[]>(API_ENDPOINTS.STUDENT.CURRICULUM),
+  });
+}
+```
+
+## Mutations
+
+Use `useApiMutation` with `invalidateKeys` for cache updates after create/update/delete.
+
+## Pages
+
+Pages should orchestrate hooks + presentational components. No fetch logic in JSX.
+
+## Types
+
+- API responses: `ApiSuccessResponse<T>` from `types/api.ts`
+- Avoid `as any` on API responses — type the `data` generic

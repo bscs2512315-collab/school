@@ -1,0 +1,3044 @@
+[
+  {
+    "paper": "2021-P1",
+    "question": "1",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "2",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "3",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.83,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "4",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "5",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "6",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "7",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "8",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "9",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "10",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.67,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "11",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.91,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "12",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "13",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "14",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "15",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "16",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "17",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "18",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "19",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "20",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.92,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "21",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "22",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "23",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "24",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "25",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "26",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "27",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "28",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "29",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "30",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "31",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "32",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "33",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.93,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "34",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "35",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.29,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "36",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.88,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "37",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "38",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "39",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "40",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.83,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "41",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.75,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "42",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "43",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "44",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "45",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "46",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "47",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "48",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "49",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.88,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "50",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "51",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "52",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "53",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "54",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "55",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "56",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "57",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "58",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.86,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "59",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.82,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "60",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "61",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "62",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.88,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "63",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.8,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "64",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2021-P1",
+    "question": "65",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "1",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "2",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "3",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.83,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "4",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "5",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "6",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "7",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "8",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "9",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "10",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.67,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "11",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.91,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "12",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "13",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "14",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "15",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "16",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "17",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "18",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "19",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "20",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.92,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "21",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "22",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "23",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "24",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "25",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "26",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "27",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "28",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "29",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "30",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "31",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "32",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "33",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.93,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "34",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "35",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.29,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "36",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.88,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "37",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "38",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "39",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "40",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.83,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "41",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.75,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "42",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "43",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "44",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "45",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "46",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "47",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "48",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "49",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.88,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "50",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "51",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "52",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "53",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "54",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "55",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "56",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "57",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "58",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.86,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "59",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.82,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "60",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "61",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "62",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.88,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "63",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.8,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "64",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2022-P1",
+    "question": "65",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "1",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.27,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "2",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "3",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.75,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "4",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "5",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.67,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "6",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "7",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "8",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "9",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.38,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "10",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.75,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "11",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "12",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "13",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.77,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "14",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "15",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "16",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.82,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "17",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.93,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "18",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "19",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "20",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "21",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "22",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "23",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "24",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "25",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "26",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "27",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.29,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "28",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.89,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "29",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "30",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.9,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "31",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.91,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "32",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.86,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "33",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "34",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "35",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.92,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "36",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "37",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.92,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "38",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.71,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "39",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.67,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "40",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.92,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "41",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.83,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "42",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.75,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "43",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "44",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "45",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "46",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.93,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "47",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.67,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "48",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.75,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "49",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.75,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P1",
+    "question": "50",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.8,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "1",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.14,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "2",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "3",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "4",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.8,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "5",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.95,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "6",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "7",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "8",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "9",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "10",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "11",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "12",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "13",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "14",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.67,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "15",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "16",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.86,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "17",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "18",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "19",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "20",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "21",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.75,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "22",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "23",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.6,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "24",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "25",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "26",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "27",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.78,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "28",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.94,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "29",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.9,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "30",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.56,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "31",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.88,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "32",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "33",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.83,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "34",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "35",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "36",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.38,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "37",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "38",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "39",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "40",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "41",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.57,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "42",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "43",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "44",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.94,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "45",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.96,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "46",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "47",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.8,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "48",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "49",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.89,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P1",
+    "question": "50",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.9,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "1",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.38,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "2",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "3",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.91,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "4",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "5",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "6",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "7",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "8",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "9",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "10",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.67,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "11",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.75,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "12",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "13",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "14",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "15",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "16",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "17",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "18",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "19",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.89,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "20",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.8,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "21",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "22",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "23",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "24",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "25",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "26",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "27",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "28",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.64,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "29",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "30",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.78,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "31",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "32",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.92,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "33",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.67,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "34",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.86,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "35",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.88,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "36",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.86,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "37",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.88,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "38",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.56,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "39",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.63,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "40",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.8,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "41",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.91,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "42",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.67,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "43",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "44",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "45",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "46",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.96,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "47",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.67,
+    "optionLabelsPresent": true,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "48",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": true,
+    "status": "manual-visual-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "49",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.63,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P1",
+    "question": "50",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.83,
+    "optionLabelsPresent": true,
+    "status": "source-text-matched"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "1:i",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.33,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "1:ii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.27,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "2:i",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "2:ii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "3:i",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.73,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "3:ii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.88,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "3:iii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.75,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "4:i_I",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "4:i_II",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "4:ii_I",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "4:ii_II",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.96,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "5:i",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.86,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "5:ii",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.14,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "6:ai",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "6:aii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "6:aiii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "6:bi",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "6:bii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "7:ai",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.81,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "7:aii",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.84,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "7:aiii",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.83,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "7:bi",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "7:bii",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "7:ci",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.06,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "7:cii",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.06,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "7:ciii",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.06,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "8:i_I",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.91,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "8:i_II",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.91,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2023-P2",
+    "question": "8:ii",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.89,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "1:a",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.18,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "2:a",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "3:i",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "3:ii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "4:a",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.96,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "5:a",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.82,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "6:a",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "7:a",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.8,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "7:b",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "7:c",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.95,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2024-P2",
+    "question": "8:a",
+    "imageAssigned": true,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.45,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "1",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.11,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "2:i",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "2:ii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "3:i",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "3:ii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.92,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "4:i",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "4:ii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "5",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "6:a.i",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "6:a.ii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "6:b.i",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "6:b.ii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "6:b.iii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "7:a",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.93,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "7:b",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 1,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "7:c.i",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.71,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "7:c.ii",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.71,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  },
+  {
+    "paper": "2025-P2",
+    "question": "8",
+    "imageAssigned": false,
+    "sourceBlockFound": true,
+    "questionTokenOverlap": 0.91,
+    "optionLabelsPresent": false,
+    "status": "manual-text-review"
+  }
+]

@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                  String   @id @default(cuid())
+  email               String   @unique
+  password            String
+  name                String
+  class               String?
+  fatherName          String?  @map("father_name")
+  dob                 DateTime?
+  gender              String?
+  board               String   @default("AKUEB")
+  schoolName          String?  @map("school_name")
+  isVerified          Boolean  @default(false) @map("is_verified")
+  points              Int      @default(0)
+  rank                Int?
+  profileImage        String?  @map("profile_image")
+  username            String?  @unique
+  city                String?
+  role                String   @default("STUDENT")
+  
+  // School specific fields
+  phone               String?
+  address             String?
+  studentCount        String?  @map("student_count")
+  
+  // Onboarding fields
+  registeredBySchool  Boolean  @default(false) @map("registered_by_school")
+  registrationId      String?  @map("registration_id")
+  onboardingCompleted Boolean  @default(false) @map("onboarding_completed")
+
+  createdAt           DateTime @default(now()) @map("created_at")
+  updatedAt           DateTime @updatedAt @map("updated_at")
+
+  @@map("users")
+}

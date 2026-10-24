@@ -1,0 +1,261 @@
+{
+  "timestamp": "2026-10-01T22:46:00.220Z",
+  "baseUrl": "https://www.exboardai.tech",
+  "publicPages": [
+    {
+      "name": "Landing Home",
+      "path": "/",
+      "status": 200,
+      "durationMs": 9857,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true
+    },
+    {
+      "name": "Privacy Policy",
+      "path": "/privacy",
+      "status": 200,
+      "durationMs": 3094,
+      "title": "Privacy Policy — ExBoard AI | ExBoard AI",
+      "ok": true
+    },
+    {
+      "name": "Terms & Conditions",
+      "path": "/terms",
+      "status": 200,
+      "durationMs": 4417,
+      "title": "Terms & Conditions — ExBoard AI | ExBoard AI",
+      "ok": true
+    },
+    {
+      "name": "Login Page",
+      "path": "/login",
+      "status": 200,
+      "durationMs": 2899,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true
+    },
+    {
+      "name": "Register Page",
+      "path": "/register",
+      "status": 200,
+      "durationMs": 2979,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true
+    },
+    {
+      "name": "Forgot Password",
+      "path": "/forgot-password",
+      "status": 200,
+      "durationMs": 2275,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true
+    },
+    {
+      "name": "Past Papers Public Index",
+      "path": "/past-papers",
+      "status": 200,
+      "durationMs": 2456,
+      "title": "AKUEB Past Papers — Practice Real Board Papers | ExBoard AI",
+      "ok": true
+    },
+    {
+      "name": "Curriculum Public Index",
+      "path": "/curriculum",
+      "status": 200,
+      "durationMs": 3021,
+      "title": "AKUEB Curriculum — Class IX–XII Chapters & Learning Outcomes | ExBoard AI",
+      "ok": true
+    },
+    {
+      "name": "Practical Journals Public Index",
+      "path": "/practical-journals",
+      "status": 200,
+      "durationMs": 2362,
+      "title": "AKUEB Practical Journals — Physics, Chemistry & Biology | ExBoard AI",
+      "ok": true
+    }
+  ],
+  "studentPages": [
+    {
+      "name": "Student Dashboard",
+      "path": "/student/dashboard",
+      "status": 200,
+      "durationMs": 1746,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Past Papers 1 (MCQs)",
+      "path": "/student/past-papers-1",
+      "status": 200,
+      "durationMs": 1926,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Past Papers 2 (CRQs/ERQs)",
+      "path": "/student/past-papers-2",
+      "status": 200,
+      "durationMs": 6256,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Curriculum Syllabus",
+      "path": "/student/curriculums",
+      "status": 200,
+      "durationMs": 1709,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Solved Notes",
+      "path": "/student/solved-notes",
+      "status": 200,
+      "durationMs": 1837,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Practical Journals",
+      "path": "/student/practical-journals",
+      "status": 200,
+      "durationMs": 1799,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Leaderboard",
+      "path": "/student/leaderboard",
+      "status": 200,
+      "durationMs": 2351,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Lightning Arena / Challenge",
+      "path": "/student/challenge",
+      "status": 200,
+      "durationMs": 1729,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Custom Quizzes",
+      "path": "/student/custom-quizzes",
+      "status": 200,
+      "durationMs": 1842,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Dynamic Question Generator",
+      "path": "/student/generate",
+      "status": 200,
+      "durationMs": 1815,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "History & Analytics",
+      "path": "/student/history",
+      "status": 200,
+      "durationMs": 2277,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Student Settings",
+      "path": "/student/settings",
+      "status": 200,
+      "durationMs": 1760,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Student Profile / Account",
+      "path": "/student/account",
+      "status": 200,
+      "durationMs": 3095,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Study Network / Friends",
+      "path": "/student/friends",
+      "status": 200,
+      "durationMs": 1840,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Notifications",
+      "path": "/student/notifications",
+      "status": 200,
+      "durationMs": 1736,
+      "title": "",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Classrooms",
+      "path": "/student/classrooms",
+      "status": 200,
+      "durationMs": 1931,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    },
+    {
+      "name": "Nova AI Tutor",
+      "path": "/student/nova",
+      "status": 200,
+      "durationMs": 1789,
+      "title": "ExBoard AI — AI-Powered AKUEB & Sindh Board Exam Preparation",
+      "ok": true,
+      "hasCrash": false
+    }
+  ],
+  "novaAiTests": [
+    {
+      "topic": "Physics",
+      "query": "Explain Newton's second law of motion and show how F = ma is derived with SI units.",
+      "durationMs": 19109,
+      "responseLength": 2477,
+      "snippet": " unit of force is the Newton (N). Mass (m): The SI unit of mass is the kilogram (kg). Acceleration (a): The SI unit of acceleration is meters per second squared (m/s²). Therefore, from F = ma, we can see the relationship between the units: 1 Newton = 1 kilogram × 1 meter/second^2 1 N = 1 kg · m/s^2",
+      "ok": true
+    },
+    {
+      "topic": "Biology",
+      "query": "What is the primary function of mitochondria in a eukaryotic cell, and why is it called the powerhouse?",
+      "durationMs": 7913,
+      "responseLength": 4220,
+      "snippet": "s functions. Without sufficient ATP, the cell cannot perform its vital activities and will eventually cease to function. High Energy Demand: Cells with high energy demands (e.g., muscle cells, liver cells, nerve cells) typically have a larger number of mitochondria to meet their energy requirements.",
+      "ok": true
+    },
+    {
+      "topic": "Mathematics",
+      "query": "Solve the quadratic equation 2x^2 + 5x - 3 = 0 using factorization and show each step clearly.",
+      "durationMs": 6905,
+      "responseLength": 4483,
+      "snippet": "ia to meet their energy requirements. Solve the quadratic equation 2x^2 + 5x - 3 = 0 using factorization and show each step clearly. Here is the Sindh Board Class XI Mathematics syllabus with 12 learning units and full SLO breakdown. Click here to view syllabus SOURCES Mathematics — Full Syllabus",
+      "ok": true
+    }
+  ],
+  "paperAttemptTests": [],
+  "errors": []
+}
